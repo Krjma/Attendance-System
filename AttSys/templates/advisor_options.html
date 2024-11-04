@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Advisor Options</title>
+</head>
+<body>
+    <div class="center-container">
+    <div class="container">
+        <h1>Advisor Dashboard</h1>
+        <h2>Welcome, Advisor</h2>
+        <p>Select a class to manage excuse:</p>
+        <ul>
+            {% for class in classes %}
+                <li>
+                    {{ class[1] }}
+                    <a href="{{ url_for('view_all_attendance', class_id=class[0]) }}" class="option-link">View Attendance</a>
+                    <a href="{{ url_for('review_excuses', class_id=class[0]) }}" class="option-link">Review Excuses</a>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('logout1') }}" class="logout-link">Logout</a>
+    </div>
+</div>
+</body>
+</html>

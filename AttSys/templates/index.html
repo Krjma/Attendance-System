@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Selection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="center-container">
+        <div class="container">
+            <h1>Select Your Role</h1>
+            <div class="role-selection">
+                <!-- Role buttons in the middle of the screen -->
+                <a href="{{ url_for('student_login') }}" class="role-button">Student</a>
+                <a href="{{ url_for('instructor_login') }}" class="role-button">Instructor</a>
+                <a href="{{ url_for('advisor_login') }}" class="role-button">Advisor</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

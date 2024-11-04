@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Student Options</title>
+</head>
+<body>
+    </div>
+    <div class="center-container">
+    <div class="container">
+        <h1>Welcome, Student</h1>
+        
+        <ul class="options-list">
+            <li><a href="{{ url_for('view_student_attendance') }}" class="option-link">View_Attendance</a></li>
+            <li><a href="{{ url_for('submit_excuse') }}" class="option-link">Submit_Excuse</a></li>
+                </ul>
+        
+        <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,262 @@
+/* Global Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #1e1e2f; /* Dark background for contrast */
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Optional: Separate Class for Mark Attendance Link */
+.mark-attendance-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #28a745; /* Green background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.4); /* Green shadow */
+}
+
+.mark-attendance-link:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px);
+}
+
+
+/* Optional: Separate Class for View Attendance Link */
+.view-attendance-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #28a745; /* Green background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.4); /* Green shadow */
+}
+
+.view-attendance-link:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px);
+}
+
+
+.option-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #28a745; /* Green background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.4); /* Green shadow */
+}
+
+.option-link:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px);
+}
+
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+    background-color: #29293d; /* Darker panel color */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Headings */
+h1 {
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 10000;
+}
+
+/* Role Selection Buttons */
+.role-selection {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.role-button {
+    padding: 15px 30px;
+    background-color: #ff6b6b; /* Soft red for emphasis */
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(255, 107, 107, 0.4);
+}
+
+.role-button:hover {
+    background-color: #ff4757;
+    transform: translateY(-3px);
+}
+/* Styling for the Back Link */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #1dd1a1; /* Matches the green color for consistency */
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #10ac84;
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    margin: 30px auto;
+    text-align: left;
+    display: inline-block;
+    max-width: 450px;
+}
+
+
+/* Center container to middle of the screen */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], select {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f2f4f;
+    color: #eaeaea;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    background-color: #1dd1a1; /* Green for contrast */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(29, 209, 161, 0.4);
+}
+
+button:hover {
+    background-color: #10ac84;
+    transform: translateY(-3px);
+}
+
+/* Links */
+a {
+    display: block;
+    color: #1dd1a1;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+
+
+
+a:hover {
+    color: #10ac84;
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 95%;
+    max-width: 800px;
+    font-size: 1rem;
+    background-color: #3a3a5c;
+    color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #44445e;
+}
+
+th {
+    background-color: #ff6b6b;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+td {
+    background-color: #2f2f4f;
+    color: #eaeaea;
+}
+
+tr:nth-child(even) td {
+    background-color: #35354f;
+}
+
+/* Hover Effect on Table Rows */
+tr:hover td {
+    background-color: #404062;
+}
+
+/* Flash Messages */
+.flash-messages {
+    margin: 20px 0;
+    padding: 15px;
+    list-style-type: none;
+    color: #ff4757;
+    background-color: #3a3a5c;
+    border: 1px solid #ff6b6b;
+    border-radius: 5px;
+}
+
+/* Animation Transitions */
+button, .role-button, input, select {
+    transition: all 0.3s ease;
+}
+
